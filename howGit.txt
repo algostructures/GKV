@@ -1,0 +1,4 @@
+git add -A
+git commit -m -a
+git push origin master
+D:\Coding\GKV_java\GKV [master]>
