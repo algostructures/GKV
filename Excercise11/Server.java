@@ -1,4 +1,12 @@
 // UDPServer.java: A simple UDP server program.
+/***
+Usage :
+1. Run the Sever Program with : java server 8000
+2. Run Client Program with : java Client redius  127.0.0.1  8000
+Note 1 : redius is a Positive Integer
+Note 2 : If Program Requires Multiple Numbers Just separate them with comma like 2,3,4,5
+  then usgae will be : java Client 2,3,4,5 127.0.0.1 8000
+***/
 import java.net.*;
 import java.io.*;
 public class Server {
